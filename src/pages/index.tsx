@@ -1,4 +1,4 @@
-import Overlay from "@/overlay";
+import Overlay from "@/Overlay";
 import Spline from "@splinetool/react-spline";
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
