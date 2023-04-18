@@ -1,14 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+html,
 body {
   color: #fff;
   background: linear-gradient(#6af, #9df);
-  height: 100vh;
   margin: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  flex-grow: inherit;
+  padding: 0;
+  width: 100%;
+  height: 100%;
   font-size: 2vw;
   font-weight: bold;
+  overflow: hidden;
+}
+
+/* CSS file */
+
+/* Reset margins and padding */
+
+/* Make the component full screen and centered */
+.scene {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 0;
 }
 
 .snowflakes {

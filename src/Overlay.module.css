@@ -1,0 +1,18 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotifyPlaylist {
+  width: 100%;
+  max-width: 200px; /* Set a max-width to prevent the playlist from occupying the entire width of the container */
+  height: 80%; /* Adjust the height as needed */
+  margin-right: 20px;
+}
