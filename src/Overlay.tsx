@@ -6,10 +6,23 @@ const Overlay = () => {
       <iframe
         src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0Yxoavh5qJV?utm_source=generator"
         width="100%"
-        height="352"
+        height="100%"
         frameBorder="0"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
+        allow="encrypted-media"
+        title="Spotify Playlist"
+        style={{ marginTop: "10px" }}
+        className={styles.musicPlaylist}
+      ></iframe>
+      <iframe
+        className={styles.musicPlaylist}
+        src="https://embed.music.apple.com/us/playlist/essential-christmas/pl.b0e04e25887741ea845e1d5c88397fd4"
+        width="100%"
+        height="100%"
+        frameBorder="0"
+        allow="autoplay *; encrypted-media *;"
+        style={{ width: "100%", height: "100%", border: "0" }}
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+        title="Apple Music Playlist"
       ></iframe>
     </div>
   );
