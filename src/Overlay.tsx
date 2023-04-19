@@ -24,6 +24,18 @@ const Overlay = () => {
         style={{ marginTop: "10px" }}
         className={styles.musicPlaylist}
       ></iframe>
+
+      <div>
+        <span className={styles.davidLink}>
+          Made with ❤️ from{" "}
+          <a
+            style={{ color: "white", marginTop: "20px" }}
+            href="https://www.davidimel.com/"
+          >
+            David Imel
+          </a>
+        </span>
+      </div>
     </div>
   );
 };

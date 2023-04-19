@@ -34,5 +34,10 @@
 
   .musicPlaylist {
     margin-bottom: 5px;
+    max-width: 80vw;
+  }
+
+  .davidLink {
+    font-size: large;
   }
 }
