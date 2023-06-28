@@ -30,9 +30,9 @@ const Overlay = () => {
           Made with ❤️ from{" "}
           <a
             style={{ color: "white", marginTop: "20px" }}
-            href="https://www.davidimel.com/"
+            href="https://www.zzulanas.dev/"
           >
-            David Imel
+            Zach Zulanas
           </a>
         </span>
       </div>
